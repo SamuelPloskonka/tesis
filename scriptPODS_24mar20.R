@@ -229,6 +229,10 @@ r <- r[[c(1,12)]]
 names(r) <- c("Temp","Prec")
 coords <- data.frame(x=podocarps$longitud,y=podocarps$latitud)
 # ?data.frame()
+# 
+# 
+# 
+# 
 
 points <- SpatialPoints(coords, proj4string = r@crs)
 values <- extract(r,points)
@@ -259,6 +263,19 @@ mt_*()
   mt_bands()
   mt_products()
   head(mt_products()
-  
-  
+
+       ?MODISTools::mt_batch_subset
+
+       
+
+       
+       
+       
+###########################################################################################################
+###########################################################################################################
+
+
+https://power.larc.nasa.gov/data-access-viewer/
+       
+         
   
