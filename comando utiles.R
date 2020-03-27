@@ -2,6 +2,9 @@
 
 # importar datos
 
+
+
+
 library(readr)
 read_csv(".../")
 read_tsv(".../")
